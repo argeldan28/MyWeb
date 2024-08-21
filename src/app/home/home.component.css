@@ -1,0 +1,21 @@
+.top {
+    background-color: rgb(83, 129, 168);
+    color: white;
+    width: 100%; /* Assicurati che occupi tutta la larghezza */
+    min-height: 100vh; /* Assicura che l'altezza minima sia l'altezza del viewport */
+    overflow: hidden; /* Nasconde eventuali contenuti che escono dai confini */
+    display: flex; /* Usa Flexbox per centrare il contenuto se necessario */
+    flex-direction: column; /* Allinea il contenuto verticalmente */
+    align-items: center; /* Centra il contenuto orizzontalmente */
+    justify-content: center; /* Centra il contenuto verticalmente */
+    padding: 20px;
+}
+
+img {
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-right: 200px;
+    border-radius: 5%;
+    width: 400px;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
+.full-width-blue {
+    background-color: #1e3a8a; /* Colore blu scuro di Tailwind per bg-blue-950 */
+    height: 500px;
+    width: 100%; /* Occupare tutta la larghezza disponibile */
+    position: relative; /* Permette il posizionamento relativo all'interno del div */
+    padding: 20px; /* Aggiunge spazio interno */
+    box-sizing: border-box; /* Include il padding e il bordo nella larghezza e altezza totali */
+}
+
+.image-container {
+    position: absolute; /* Posiziona l'immagine assolutamente all'interno del contenitore */
+    right: 300px; /* Distanza dal bordo destro del contenitore */
+    bottom: 20px; /* Distanza dal bordo inferiore del contenitore */
+    width: 400px; /* Larghezza dell'immagine */
+}
+
+img {
+    display: block;
+    margin: 0; /* Rimuove il margine automatico, ora non necessario */
+    border-radius: 2%;
+    width: 100%; /* Occupa tutta la larghezza del contenitore */
+    position: relative; /* Permette l'uso di top per alzarla */
+    top: 100px; /* Alza l'immagine di 50px */
+}
+
+.paragraph-container {
+    width: 50%; /* Altezza pari al 50% dell'altezza del contenitore padre */
+    padding-left: 200px;
+    margin-bottom: 20px; /* Spazio inferiore per evitare sovrapposizione con altri elementi */
+}

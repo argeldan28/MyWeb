@@ -1,0 +1,107 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: #1e3a8a; 
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1e3a8a;
+    padding-bottom: 10px;
+}
+
+.education-list, .competence-list, .languages-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education-list li, .competence-list li, .languages-list li {
+    margin-bottom: 15px;
+}
+
+.course-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.course-date, .course-institute, .language-level {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.language-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.competence-description {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #444;
+}
+
+.competence-list li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.competence-list li strong {
+    color: #1e3a8a;
+}
+
+.languages-section {
+    padding: 20px;
+    background-color: #f3f4f6; 
+    border-radius: 8px; 
+}
+
+.languages-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.language-item {
+    margin-bottom: 16px;
+}
+
+.language-name {
+    font-weight: bold;
+    color: #1e3a8a; 
+    display: inline-block;
+    width: 100px; 
+}
+
+.progress-bar-container {
+    background-color: #e5e7eb; 
+    border-radius: 4px;
+    overflow: hidden;
+    width: 60%; 
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.progress-bar {
+    background-color: #1e3a8a; 
+    height: 10px;
+    border-radius: 4px;
+}
+
+.language-level {
+    font-size: 0.9rem;
+    color: #555;
+    display: inline-block;
+    width: 100px; 
+}
+
+
+
+

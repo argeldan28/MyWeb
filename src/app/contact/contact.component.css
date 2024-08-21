@@ -1,0 +1,41 @@
+contact-section {
+    background-color: #003366; /* Colore di sfondo */
+    color: white; /* Colore del testo */
+    padding: 15px; /* Spaziatura interna */
+    border-radius: 5px; /* Arrotondamento degli angoli */
+    width: 250px; /* Larghezza della sezione */
+    font-family: Arial, sans-serif; /* Font */
+}
+
+.contact-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border-bottom: 2px solid white; /* Linea sotto il titolo */
+    padding-bottom: 5px; /* Spazio sotto il titolo */
+}
+
+.contact-list {
+    list-style: none; /* Rimuove i puntini dall'elenco */
+    padding: 0;
+    margin: 0;
+}
+
+.contact-item {
+    margin-bottom: 10px; /* Spaziatura tra gli elementi */
+    display: flex; /* Disposizione flessibile */
+    align-items: center; /* Allineamento verticale */
+}
+
+.contact-item i {
+    margin-right: 10px; /* Spazio tra l'icona e il testo */
+    font-size: 1.2em; /* Dimensione delle icone */
+}
+
+.contact-item a {
+    color: rgb(0, 0, 0); /* Colore del link */
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+.contact-item a:hover {
+    text-decoration: underline; /* Sottolinea al passaggio del mouse */
+}
