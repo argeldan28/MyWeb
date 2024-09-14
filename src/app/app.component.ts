@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, Renderer2 } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from "./navbar/navbar.component";
 import { CommonModule } from '@angular/common';
@@ -16,4 +16,20 @@ import { ContactComponent } from "./contact/contact.component";
 })
 export class AppComponent {
   title = 'MyWeb';
+
+  constructor(private renderer: Renderer2, private el: ElementRef) {}
+
+  ngAfterViewInit() {
+    this.renderer.listen('window', 'scroll', () => {
+      const elements = this.el.nativeElement.querySelectorAll('.fade-in');
+      elements.forEach((element: HTMLElement) => {
+        const position = element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (position < windowHeight - 100) {
+          element.classList.add('visible');
+        }
+      });
+    });
+  }
 }
