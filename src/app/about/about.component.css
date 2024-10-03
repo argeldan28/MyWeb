@@ -13,6 +13,8 @@
     padding-bottom: 10px;
 }
 
+
+
 .education-list, .competence-list, .languages-list {
     list-style-type: none;
     padding: 0;
@@ -54,6 +56,10 @@
 
 .competence-list li strong {
     color: #1e3a8a;
+}
+
+.competence-section{
+
 }
 
 .languages-section {
