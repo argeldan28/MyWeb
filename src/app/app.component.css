@@ -16,6 +16,7 @@
     right: 300px; /* Distanza dal bordo destro del contenitore */
     bottom: 20px; /* Distanza dal bordo inferiore del contenitore */
     width: 400px; /* Larghezza dell'immagine */
+   
 }
 
 img {
@@ -25,6 +26,7 @@ img {
     width: 100%; /* Occupa tutta la larghezza del contenitore */
     position: relative; /* Permette l'uso di top per alzarla */
     top: 100px; /* Alza l'immagine di 50px */
+    box-shadow: 15px 15px 30px rgba(31, 65, 219, 0.5); 
 }
 
 .paragraph-container {
@@ -35,11 +37,12 @@ img {
 
 .fade-in {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateX(100px);
     transition: opacity 1s ease-out, transform 1s ease-out;
   }
   
   .fade-in.visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
+
